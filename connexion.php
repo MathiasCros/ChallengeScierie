@@ -22,11 +22,6 @@ session_start();
 
 	<div class="forms">
 
-		<ul class="onglets">
-			<li class="onglet active"><a href="#login">Connexion</a></li>
-			<li class="onglet"><a href="#sinscrire">Inscription</a></li>
-		</ul>
-
 		<form action="controleur/traitementFormConnexion.php" method="GET" id="login">
 			<h1>Connexion</h1>
 			<span class="err">
