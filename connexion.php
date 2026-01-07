@@ -10,8 +10,6 @@ session_start();
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-		integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 </head>
 
 <body>
@@ -21,7 +19,6 @@ session_start();
 	</section>
 
 	<div class="forms">
-
 		<form action="controleur/traitementFormConnexion.php" method="GET" id="login">
 			<h1>Connexion</h1>
 			<span class="err">
