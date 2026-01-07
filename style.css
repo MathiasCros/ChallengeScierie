@@ -82,8 +82,9 @@ main{
   font-weight: 600;
 }
 
-.image {
- max-width: 100%;
+img {
+	width: auto;
+	height: auto;
 }
 
 input {
