@@ -5,8 +5,6 @@
     <ul class="nav-links">
         <li class="nav-item"><a href="index.php">ACCUEIL</a></li>
         <li class="nav-item"><a href="produits.php">LES PRODUITS</a></li>
-        <li class="nav-item"><a href="video.php">VIDEO</a></li>
-        <li class="nav-item"><a href="contact.php">NOUS CONTACTER</a></li>
         <?php
         if (isset($_SESSION['id'])) {
             echo "<li class='nav-item'><a href='administration.php'>ADMINISTRATION</a></li>";
