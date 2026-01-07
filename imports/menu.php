@@ -1,19 +1,17 @@
 <nav class="navbar">
-    <li class="toggle">
-        <ul class="toggle-item"><i class="fa fa-bars menu" aria-hidden="true"> </i></ul>
-    </li>
+    <button class="menu-toggle" aria-label="Ouvrir le menu">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </button>
+
     <ul class="nav-links">
-        <li class="nav-item"><a href="index.php">ACCUEIL</a></li>
-        <li class="nav-item"><a href="produits.php">LES PRODUITS</a></li>
-        <?php
-        if (isset($_SESSION['id'])) {
-            echo "<li class='nav-item'><a href='administration.php'>ADMINISTRATION</a></li>";
-        }
-        if (isset($_SESSION['id'])) {
-            echo "<li class='nav-item'><a href='deconnexion.php'>DECONNEXION</a></li>";
-        } else {
-            echo "<li class='nav-item'><a href='connexion.php'>CONNEXION</a></li>";
-        }
-        ?>
+        <li><a class="nav-btn" href="index.php">ACCUEIL</a></li>
+        <li><a class="nav-btn" href="produits.php">LES PRODUITS</a></li>
+
+        <?php if (isset($_SESSION['id'])): ?>
+            <li><a class="nav-btn" href="administration.php">ADMINISTRATION</a></li>
+            <li><a class="nav-btn" href="deconnexion.php">DÉCONNEXION</a></li>
+        <?php else: ?>
+            <li><a class="nav-btn" href="connexion.php">CONNEXION</a></li>
+        <?php endif; ?>
     </ul>
 </nav>
