@@ -16,7 +16,7 @@ session_start();
 </head>
 
 <body>
-	<?php include "menu.php" ?>
+	<?php include "imports/menu.php" ?>
 
 	<div class="contactContainer">
 
@@ -60,7 +60,7 @@ session_start();
 	</div>
 
 	<?php
-		include "footer.php";
+		include "imports/footer.php";
 	?>
 
 </body>

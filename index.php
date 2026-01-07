@@ -15,21 +15,8 @@ session_start();
 
 <body>
 
-	<?php include "menu.php" ?>
+	<?php include "imports/menu.php" ?>
 
-	<!-- SLIDER -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	
-	<section>
-		<?php
-		include "includes/slider.php";
-		?>
-	</section>
-
-	<script type="text/javascript" src="scripts/slider.js"></script>
-	<!-- END SLIDER -->
-
-	<!-- load page content -->
 	<main>
 		<?php
 		include "controleur/initIndex.php";
@@ -37,7 +24,7 @@ session_start();
 	</main>
 
 	<?php
-		include "footer.php";
+		include "imports/footer.php";
 	?>
 
 </body>

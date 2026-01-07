@@ -21,7 +21,7 @@ if ((!(isset($_SESSION['id'])) || empty($_SESSION['id'])) && $_SESSION['role'] !
 </head>
 
 <body>
-	<?php include "menu.php" ?>
+	<?php include "imports/menu.php" ?>
 	<!-- Ajout d'un produit -->
 	<div class="row">
 		<div class="containerAjoutProduit col-90">
@@ -160,7 +160,7 @@ if ((!(isset($_SESSION['id'])) || empty($_SESSION['id'])) && $_SESSION['role'] !
 			</form>
 		</div>
 		<?php
-		include "footer.php";
+		include "imports/footer.php";
 		?>
 
 		<script src="scripts/initSelectModifProduit.js"></script>

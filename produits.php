@@ -14,7 +14,7 @@ session_start();
 </head>
 
 <body>
-	<?php include "menu.php" ?>
+	<?php include "imports/menu.php" ?>
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -24,7 +24,7 @@ session_start();
 	</main>
 
 	<?php
-		include "footer.php";
+		include "imports/footer.php";
 	?>
 	<script src="scripts/initListeProduits.js"></script>
 </body>

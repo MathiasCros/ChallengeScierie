@@ -17,7 +17,7 @@ session_start();
 <body>
 
 	<section>
-		<?php include "menu.php" ?>
+		<?php include "imports/menu.php" ?>
 	</section>
 
 	<div class="forms">
@@ -94,7 +94,7 @@ session_start();
 	</div>
 
 	<?php
-		include "footer.php";
+		include "imports/footer.php";
 	?>
 
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

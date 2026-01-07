@@ -14,7 +14,7 @@ session_start();
 </head>
 
 <body>
-	<?php include "menu.php" ?>
+	<?php include "imports/menu.php" ?>
 	<div style="text-align: center;">
 		<iframe width="500" height="281" src="https://www.youtube.com/embed/dbHXPnhCicI?autoplay=1&mute=1"
 			title="YouTube video player" frameborder="0"
@@ -24,7 +24,7 @@ session_start();
 	</div>
 
 	<?php
-	include "footer.php";
+	include "imports/footer.php";
 	?>>
 
 </body>
