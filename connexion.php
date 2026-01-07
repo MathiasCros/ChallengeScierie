@@ -93,15 +93,9 @@ session_start();
 		</form>
 	</div>
 
-	<!--*************** PIED DE PAGE ***************-->
-	<footer id="footer">
-		<ul class="footer-links">
-			<li class="footer-item">©Projet 3iL</li>
-			<li class="footer-item"><a href="#" target="_blank"><img id="logo" src="images/facebook.png"></a></li>
-			<li class="footer-item">Site test</li>
-			<ul />
-	</footer>
-	<!--*************** PIED DE PAGE ***************-->
+	<?php
+		include "footer.php";
+	?>
 
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 	<script type="text/javascript">
