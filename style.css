@@ -30,6 +30,12 @@ body {
     font-weight: bold;                 /* mettre le texte en gras */
 }
 
+/*pour supprimer les ronds après avoir supp Bootstrap*/
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 /* ==========================================================================
    2. MENU (Anciennement menu.css)
@@ -39,6 +45,7 @@ body {
     align-items: center;
     padding: 0.8rem 1.5rem;
     background-color: #54b454;
+    width: 100%;
 }
 
 .nav-links {
